@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: cadetblue;
+    background-color:#77002e;
     padding: 4%;
 }
 
@@ -35,10 +35,10 @@
 .header a:hover,
 .header a:active,
 .header a.active{
-    color: crimson;
+    color: white;
 }
 
-.badse{
+.badge{
     background-color: darkblue;
     color: white;
     border-radius: 12px;

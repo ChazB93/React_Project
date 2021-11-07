@@ -6,14 +6,28 @@ function MainNavigation() {
       <div className={classes.logo}> ULIMA LTD </div>
       <nav>
         <ul>
-          <li>
-              <Link>All My Meetups</Link>
+          <li><Link to='/'>
+              All My Meetups
+              </Link>
               </li>
-          <li>Add New Meetup</li>
-          <li>My Favorites</li>
-          <li>Contact</li>
-          <li>About Us</li>
-          <li>Info</li>
+          <li> <Link to='/new-meetup'>
+            Add New Meetup
+            </Link></li>
+          <li><Link to='/myfavorites'>
+            My Favorites
+            </Link></li>
+
+          <li><Link to='/contactus'>
+            Contact
+            </Link></li>
+
+          <li><Link to='/about'>
+            About Us
+            </Link></li>
+
+          <li><Link to='/info'>
+            Info
+            </Link></li>
         </ul>
       </nav>
     </header>
