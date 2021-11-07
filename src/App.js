@@ -1,5 +1,12 @@
+import MainNavigation from "./components/layout/MainNavigation";
+
 function App() {
-  return <div> Hello CHaz</div>;
+  return (<div> 
+    
+    <MainNavigation/>
+
+    </div>
+  );
   
 }
 
