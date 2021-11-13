@@ -1,7 +1,8 @@
+
+
 function AllMeetupPage(){
 
-return <div>All Meetup Page</div>
-
+return <h1>All My meetups</h1>
 }
 
 export default AllMeetupPage;
